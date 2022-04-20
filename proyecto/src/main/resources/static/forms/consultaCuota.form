@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Calculo de Cuota y Garantías",
+      "type": "text",
+      "id": "Field_0q18342"
+    },
+    {
+      "label": "Monto Solicitado",
+      "type": "number",
+      "id": "Field_0c79tcj",
+      "key": "montoSolicitado",
+      "description": "En colones",
+      "validate": {
+        "required": true,
+        "min": 0
+      }
+    },
+    {
+      "label": "Tiempo Estimado para concluir estudios",
+      "type": "number",
+      "id": "Field_0oisjtz",
+      "key": "tiempoEstimado",
+      "description": "En meses",
+      "validate": {
+        "required": true,
+        "min": 1,
+        "max": 108
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Técnico",
+          "value": "tecnico"
+        },
+        {
+          "label": "Diplomado",
+          "value": "diplomado"
+        },
+        {
+          "label": "Curso corto",
+          "value": "cursoCorto"
+        },
+        {
+          "label": "Bachillerato",
+          "value": "bachillerato"
+        },
+        {
+          "label": "Licenciatura",
+          "value": "licenciatura"
+        },
+        {
+          "label": "Maestría",
+          "value": "maestria"
+        },
+        {
+          "label": "Doctorado",
+          "value": "doctorado"
+        },
+        {
+          "label": "Especialización",
+          "value": "especializacion"
+        }
+      ],
+      "label": "Titulo",
+      "type": "select",
+      "id": "Field_1xptwks",
+      "key": "titulo",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Costa Rica",
+          "value": "nacional"
+        },
+        {
+          "label": "Exterior",
+          "value": "exterior"
+        }
+      ],
+      "label": "Donde Cursará sus estudios",
+      "type": "radio",
+      "id": "Field_1w6qj75",
+      "key": "dondeCursa",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Fiduciaria (con Fiadores)",
+          "value": "fiduciaria"
+        },
+        {
+          "label": "Hipotecaria",
+          "value": "hipotecaria"
+        }
+      ],
+      "label": "Garantia",
+      "type": "select",
+      "id": "Field_10m03y6",
+      "key": "garantia",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Calcular",
+      "type": "button",
+      "id": "Field_171atck",
+      "key": "field_0fln4lz"
+    }
+  ],
+  "type": "default",
+  "id": "Form_11o3cw8"
+}
