@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# La contraseña no conincide con la de confirmación",
+      "type": "text",
+      "id": "Field_1bvud9e"
+    },
+    {
+      "action": "submit",
+      "label": "Reintentar",
+      "type": "button",
+      "id": "Field_14lpha9",
+      "key": "field_1hq42nv"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1e1p6vf"
+}

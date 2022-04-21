@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Cuota mensual",
+      "type": "text",
+      "id": "Field_0hd8vx1"
+    },
+    {
+      "label": "Cuota mensual",
+      "type": "textfield",
+      "id": "Field_0f6wb5f",
+      "key": "montoCuota",
+      "description": "x 60 meses"
+    },
+    {
+      "action": "submit",
+      "label": "Continuar",
+      "type": "button",
+      "id": "Field_1icjfs0",
+      "key": "field_15y14pl"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0i8slaa"
+}
