@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Contraseña",
+      "type": "text",
+      "id": "Field_0j0uvza"
+    },
+    {
+      "label": "Contraseña",
+      "type": "textfield",
+      "id": "Field_1w5ual5",
+      "key": "contrasennaCuenta1",
+      "validate": {
+        "required": true,
+        "minLength": 1
+      }
+    },
+    {
+      "label": "Confirmar contraseña",
+      "type": "textfield",
+      "id": "Field_1pkiofs",
+      "key": "contrasennaCuenta2",
+      "validate": {
+        "required": true,
+        "minLength": 1
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Continuar",
+      "type": "button",
+      "id": "Field_00gbs8h",
+      "key": "field_1vp1cjz"
+    }
+  ],
+  "type": "default",
+  "id": "Form_08lokt9"
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Iniciar Sesión",
+      "type": "text",
+      "id": "Field_0j0uvza"
+    },
+    {
+      "label": "Correo Electrónico",
+      "type": "textfield",
+      "id": "Field_1w5ual5",
+      "key": "correoElectronicoEstudiante",
+      "validate": {
+        "required": true,
+        "minLength": 1
+      }
+    },
+    {
+      "label": "Contraseña",
+      "type": "textfield",
+      "id": "Field_1pkiofs",
+      "key": "contrasennaCuentaLogin",
+      "validate": {
+        "required": true,
+        "minLength": 1
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Continuar",
+      "type": "button",
+      "id": "Field_00gbs8h",
+      "key": "field_1vp1cjz"
+    }
+  ],
+  "type": "default",
+  "id": "Form_08lokt9"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Test vocacional",
+      "type": "text",
+      "id": "Field_03n34wp"
+    },
+    {
+      "label": "He completado el test vocacional",
+      "type": "checkbox",
+      "id": "Field_12yfz54",
+      "key": "testVocacional"
+    },
+    {
+      "action": "submit",
+      "label": "Continuar",
+      "type": "button",
+      "id": "Field_1jcpjyi",
+      "key": "field_1ui5dxl"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1dyq1sp"
+}

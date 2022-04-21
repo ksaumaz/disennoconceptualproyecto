@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Creación de cuenta",
+      "type": "text",
+      "id": "Field_14f2bl6"
+    },
+    {
+      "label": "Cédula",
+      "type": "textfield",
+      "id": "Field_1ltmsuo",
+      "key": "cedulaEstudiante",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Nombre",
+      "type": "textfield",
+      "id": "Field_1mwgkyp",
+      "key": "nombreEstudiante",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Primer Apellido",
+      "type": "textfield",
+      "id": "Field_0gh8f3f",
+      "key": "apellido1Estudiante",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Segundo Apellido",
+      "type": "textfield",
+      "id": "Field_05eu9bo",
+      "key": "apellido2Estudiante"
+    },
+    {
+      "label": "Correo Electrónico",
+      "type": "textfield",
+      "id": "Field_057sw68",
+      "key": "correoElectronicoEstudiante",
+      "validate": {
+        "required": true,
+        "regularExpressionPattern": "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$"
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Crear",
+      "type": "button",
+      "id": "Field_1ohaakh",
+      "key": "field_07mvknb"
+    }
+  ],
+  "type": "default",
+  "id": "Form_07zvw6z"
+}
