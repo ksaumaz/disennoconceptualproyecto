@@ -24,8 +24,11 @@ public class CrearCuenta implements JavaDelegate {
         System.out.println("Nombre: " + nombre + " " + apellido1 + " " + apellido2);
 
        try {
+           //jdbcTemplate.execute("DROP TABLE ESTUDIANTE");
+
            jdbcTemplate.execute("CREATE TABLE IF NOT EXISTS ESTUDIANTE (id SERIAL, cedula varchar(255) unique, firstName varchar(255)," +
-                   "lastName1 varchar(255), lastName2 varchar(255), email varchar(255), password varchar(255))");
+                   "lastName1 varchar(255), lastName2 varchar(255), email varchar(255), password varchar(255), dateBirth date," +
+                   "status varchar(255),provincia varchar(255), canton varchar(255), distrito varchar(255),telephone varchar(255), address varchar(255))");
            jdbcTemplate.update("Insert into ESTUDIANTE (cedula, firstName, LastName1, lastName2, email) " +
                    " values (?,?,?,?,?)", cedula, nombre, apellido1, apellido2, correoElectronico);
            execution.setVariable("creacionDeCuentaExito", true);
