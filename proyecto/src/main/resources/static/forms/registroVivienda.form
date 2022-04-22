@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Registro de Vivienda y Núcleo Familiar",
+      "type": "text",
+      "id": "Field_1xk4k4r"
+    },
+    {
+      "values": [
+        {
+          "value": "alquilada",
+          "label": "Alquilada "
+        },
+        {
+          "value": "cedida",
+          "label": "Cedida"
+        },
+        {
+          "value": "propiaHipotecada ",
+          "label": "Propia Hipotecada "
+        },
+        {
+          "value": "propiaLibre",
+          "label": "Propia Libre "
+        }
+      ],
+      "label": "Tipo de vivienda",
+      "type": "select",
+      "id": "Field_0nv1zch",
+      "key": "tipoVivienda",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Cantidad de personas en la vivienda",
+      "type": "textfield",
+      "id": "Field_1c1i5xd",
+      "key": "cantidadPersonasVivienda",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Guardar y continuar",
+      "type": "button",
+      "id": "Field_1oj0mp4",
+      "key": "field_1y59f0n"
+    }
+  ],
+  "type": "default",
+  "id": "registroVivienda"
+}

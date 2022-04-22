@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Cuenta del BCR",
+      "type": "text",
+      "id": "Field_0o4q67x"
+    },
+    {
+      "label": "He abierto mi cuenta en el BCR",
+      "type": "checkbox",
+      "id": "Field_0xia6x2",
+      "key": "cuentaBcrAbierta"
+    },
+    {
+      "action": "submit",
+      "label": "Continuar",
+      "type": "button",
+      "id": "Field_05x92mo",
+      "key": "field_121ckcc"
+    }
+  ],
+  "type": "default",
+  "id": "abrirCuentaBCR"
+}
