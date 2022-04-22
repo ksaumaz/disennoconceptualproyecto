@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Desglose del préstamo",
+      "type": "text",
+      "id": "Field_0bfv807"
+    },
+    {
+      "label": "Monto total de las materias",
+      "type": "textfield",
+      "id": "Field_0vodnio",
+      "key": "montoFinanciamientoMatricula"
+    },
+    {
+      "label": "Monto de otros financiamientos",
+      "type": "textfield",
+      "id": "Field_1ct9s7t",
+      "key": "montoOtrosFinanciamientos"
+    },
+    {
+      "label": "Monto Total",
+      "type": "textfield",
+      "id": "Field_19yvaw8",
+      "key": "montoFinanciamientoTotal"
+    },
+    {
+      "label": "País",
+      "type": "textfield",
+      "id": "Field_1qv6ecp",
+      "key": "paisEstudio"
+    },
+    {
+      "label": "Universidad",
+      "type": "textfield",
+      "id": "Field_1n6pcqb",
+      "key": "nombreUniversidadEstudio"
+    },
+    {
+      "label": "Grado",
+      "type": "textfield",
+      "id": "Field_1wjh3jw",
+      "key": "tituloObtenerEstudio"
+    },
+    {
+      "label": "Monto para materias",
+      "type": "textfield",
+      "id": "Field_1bleo7u",
+      "key": "montoMateriasCronograma"
+    },
+    {
+      "label": "Monto para matrícula",
+      "type": "textfield",
+      "id": "Field_054zqdm",
+      "key": "montoMatriculaCronograma"
+    },
+    {
+      "label": "Monto para sostenimiento",
+      "type": "textfield",
+      "id": "Field_1kez017",
+      "key": "montoSostenimientoCronograma"
+    },
+    {
+      "label": "Monto a solicitar",
+      "type": "textfield",
+      "id": "Field_1pky8qo",
+      "key": "montoSolicitudCronograma"
+    },
+    {
+      "label": "Cantidad de materias",
+      "type": "textfield",
+      "id": "Field_0ycn5yg",
+      "key": "materiasCronograma"
+    },
+    {
+      "action": "submit",
+      "label": "Continuar",
+      "type": "button",
+      "id": "Field_1dz81y3",
+      "key": "field_1eaqzt8"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0rjbtiz"
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Registros de otros financiamientos",
+      "type": "text",
+      "id": "Field_1g9bl9l"
+    },
+    {
+      "values": [
+        {
+          "label": "EQUIPO DE COMPUTO (DEBE PRESENTAR FACTURA PROFORMA)",
+          "value": "equipoComputo"
+        },
+        {
+          "label": "GASTOS DE ABOGADO (SI LA GARANTIA ES HIPOTECARIA)",
+          "value": "gastosAbogado"
+        },
+        {
+          "label": "GASTOS DE AVALUO (SI LA GARANTIA ES HIPOTECARIA)",
+          "value": "gastosAvaluo"
+        },
+        {
+          "label": "GASTOS PARA TRABAJO FINAL Y DERECHO DE GRADUACION BACHILLERATO",
+          "value": "gastosTrabajoFinalDerechoBachillerato"
+        },
+        {
+          "label": "GASTOS PARA TRABAJO FINAL Y DERECHO DE GRADUACION DOCTORADO",
+          "value": "gastosTrabajoFinalDerechoDoctorado"
+        },
+        {
+          "label": "GASTOS PARA TRABAJO FINAL Y DERECHO DE GRADUACION ESPECIALIZACION",
+          "value": "gastosTrabajoFinalDerechoEspecializacion"
+        },
+        {
+          "label": "GASTOS PARA TRABAJO FINAL Y DERECHO DE GRADUACION LICENCIATURA",
+          "value": "gastosTrabajoFinalDerechoLicenciatura"
+        },
+        {
+          "label": "GASTOS PARA TRABAJO FINAL Y DERECHO DE GRADUACION MAESTRIA",
+          "value": "gastosTrabajoFinalDerechoMaestria"
+        },
+        {
+          "label": "GASTOS PARA TRABAJO FINAL Y DERECHO DE GRADUACION PREGRADO",
+          "value": "gastosTrabajoFinalDerechoPregrado"
+        }
+      ],
+      "label": "Tipo de financiamiento",
+      "type": "select",
+      "id": "Field_1xquojn",
+      "key": "tipoFinaciamiento"
+    },
+    {
+      "label": "Monto",
+      "type": "textfield",
+      "id": "Field_0vd36ee",
+      "key": "montoOtrosFinanciamientos"
+    },
+    {
+      "action": "submit",
+      "label": "Continuar",
+      "type": "button",
+      "id": "Field_08letcr",
+      "key": "field_0b0bhmi"
+    }
+  ],
+  "type": "default",
+  "id": "Form_00ma73r"
+}

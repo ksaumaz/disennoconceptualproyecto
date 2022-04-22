@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Registrar tipo de garantía",
+      "type": "text",
+      "id": "Field_0ewnzzf"
+    },
+    {
+      "values": [
+        {
+          "label": "Hipotecaria",
+          "value": "hipotecaria"
+        },
+        {
+          "label": "Fiduciaria",
+          "value": "fiduciaria"
+        }
+      ],
+      "label": "Tipo de garantía",
+      "type": "select",
+      "id": "Field_0ebnq06",
+      "key": "tipoGarantia"
+    },
+    {
+      "action": "submit",
+      "label": "Continuar",
+      "type": "button",
+      "id": "Field_13rvdhg",
+      "key": "field_0pj0mtb"
+    }
+  ],
+  "type": "default",
+  "id": "Form_16qranr"
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# ¿Desea registrar otros montos?",
+      "type": "text",
+      "id": "Field_14zpdmr"
+    },
+    {
+      "values": [
+        {
+          "label": "Sí",
+          "value": "true"
+        },
+        {
+          "label": "No",
+          "value": "false"
+        }
+      ],
+      "type": "radio",
+      "id": "Field_05eecvu",
+      "key": "validarOtrosMontos"
+    },
+    {
+      "action": "submit",
+      "label": "Continuar",
+      "type": "button",
+      "id": "Field_15lcvx8",
+      "key": "field_1wtmudu"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0glyvmp"
+}
