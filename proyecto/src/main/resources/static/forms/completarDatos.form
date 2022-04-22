@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Completar datos personales",
+      "type": "text",
+      "id": "Field_0ueiaxw"
+    },
+    {
+      "label": "Cédula",
+      "type": "textfield",
+      "id": "Field_18djoju",
+      "key": "cedulaEstudiante",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Nombre",
+      "type": "textfield",
+      "id": "Field_1etg7wl",
+      "key": "nombreEstudiante",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Primer apellido",
+      "type": "textfield",
+      "id": "Field_1wjgts2",
+      "key": "apellido1Estudiante",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Segundo apellido",
+      "type": "textfield",
+      "id": "Field_0ev8sno",
+      "key": "apellido2Estudiante",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Correo electrónico",
+      "type": "textfield",
+      "id": "Field_01k2eha",
+      "key": "correoElectronicoEstudiante",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Fecha de nacimiento",
+      "type": "textfield",
+      "id": "Field_0mea052",
+      "key": "fechaEstudiante",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "value": "casado",
+          "label": "Casado"
+        },
+        {
+          "label": "Clérigo",
+          "value": "clerigo"
+        },
+        {
+          "label": "Divorciado",
+          "value": "divorciado"
+        },
+        {
+          "label": "Soltero",
+          "value": "Soltero"
+        },
+        {
+          "label": "Unión Libre",
+          "value": "unionLibre"
+        },
+        {
+          "label": "Viudo",
+          "value": "viudo"
+        }
+      ],
+      "label": "Estado civil",
+      "type": "select",
+      "id": "Field_1fefx97",
+      "key": "estadoCivilEstudiante",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Provincia",
+      "type": "textfield",
+      "id": "Field_1xxmw4q",
+      "key": "provinciaEstudiante",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Cantón",
+      "type": "textfield",
+      "id": "Field_04z5u1m",
+      "key": "cantonEstudiante"
+    },
+    {
+      "label": "Distrito",
+      "type": "textfield",
+      "id": "Field_19pc7gh",
+      "key": "distritoEstudiante",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Teléfono",
+      "type": "textfield",
+      "id": "Field_1ngrlgx",
+      "key": "field_0dj6qlq"
+    },
+    {
+      "label": "Dirección exacta",
+      "type": "textfield",
+      "id": "Field_0f8upcl",
+      "key": "direccionEstudiante",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Si",
+          "value": "truebcr"
+        },
+        {
+          "value": "falsebcr",
+          "label": "No"
+        }
+      ],
+      "label": "¿Posee cuenta del BCR?",
+      "type": "radio",
+      "id": "Field_16nl3o6",
+      "key": "field_0b10ubt"
+    },
+    {
+      "action": "submit",
+      "label": "Completar",
+      "type": "button",
+      "id": "Field_0p5zfbc",
+      "key": "field_04zbujr"
+    }
+  ],
+  "type": "default",
+  "id": "completarDatosPersonales"
+}
