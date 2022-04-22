@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Registro del colegio",
+      "type": "text",
+      "id": "Field_0t6r0wx"
+    },
+    {
+      "label": "Nombre Colegio",
+      "type": "textfield",
+      "id": "Field_1ibbq72",
+      "key": "nombreColegio",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Año de graduación",
+      "type": "textfield",
+      "id": "Field_15c2l7f",
+      "key": "annioGraduacionColegio",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Promedio de notas último año",
+      "type": "textfield",
+      "id": "Field_1rsma5x",
+      "key": "promedioNotasColegio",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Guardar y continuar",
+      "type": "button",
+      "id": "Field_1o70ers",
+      "key": "field_105588s"
+    }
+  ],
+  "type": "default",
+  "id": "registroColegio"
+}

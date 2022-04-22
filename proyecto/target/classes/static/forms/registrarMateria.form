@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Registrar Materia",
+      "type": "text",
+      "id": "Field_1x2nrqf"
+    },
+    {
+      "label": "Nombre de la materia",
+      "type": "textfield",
+      "id": "Field_1h8m5dk",
+      "key": "nombreMateria",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "value": "bachillerato",
+          "label": "Bachillerato "
+        },
+        {
+          "label": "Licenciatura ",
+          "value": "licenciatura"
+        },
+        {
+          "value": "diplomado",
+          "label": "Diplomado "
+        }
+      ],
+      "label": "Tipo de materia",
+      "type": "select",
+      "id": "Field_1bpjfy6",
+      "key": "tipoMateria",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Monto según protoforma",
+      "type": "textfield",
+      "id": "Field_1aiyxm4",
+      "key": "montoProtoformaMateria",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Monto a solicitar",
+      "type": "textfield",
+      "id": "Field_0ge8nxz",
+      "key": "montoSolicitudMateraia",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "value": "true",
+          "label": "Si "
+        },
+        {
+          "value": "false",
+          "label": "No "
+        }
+      ],
+      "label": "¿Desea registrar otra materia?",
+      "type": "radio",
+      "id": "Field_0qd7o1o",
+      "key": "validarRegistroMateria",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Guardar y continuar",
+      "type": "button",
+      "id": "Field_12r834r",
+      "key": "field_00xcd3y"
+    }
+  ],
+  "type": "default",
+  "id": "registarMateria"
+}

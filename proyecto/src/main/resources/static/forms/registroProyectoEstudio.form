@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Registro proyecto de estudio",
+      "type": "text",
+      "id": "Field_0ccituk"
+    },
+    {
+      "values": [
+        {
+          "label": "Asalariado",
+          "value": "asalariado"
+        },
+        {
+          "label": "Independiente",
+          "value": "independiente"
+        },
+        {
+          "value": "noTrabaja",
+          "label": "No trabaja"
+        }
+      ],
+      "label": "Condición Laboral",
+      "type": "select",
+      "id": "Field_1hhz1fa",
+      "key": "condicionLaboralEstudio",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Si ",
+          "value": "true"
+        },
+        {
+          "value": "false",
+          "label": "No "
+        }
+      ],
+      "label": "¿Tiene titulos para-universitarios o universitarios?",
+      "type": "radio",
+      "id": "Field_1dbek97",
+      "key": "tituloParaUniversitario",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Si ",
+          "value": "true"
+        },
+        {
+          "label": "No ",
+          "value": "false"
+        }
+      ],
+      "label": "¿Tiene más de 8 cursos para-universitarios o universitarios aprobados? ",
+      "type": "radio",
+      "id": "Field_06g4xgk",
+      "key": "cursosAprobados",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "País",
+      "type": "textfield",
+      "id": "Field_1qboqa4",
+      "key": "paisEstudio",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Nombre de la universidad",
+      "type": "textfield",
+      "id": "Field_11zp41u",
+      "key": "nombreUniversidadEstudio",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Nombre de la carrera",
+      "type": "textfield",
+      "id": "Field_1iodkp3",
+      "key": "nombreCarreraEstudio",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Pregrado",
+          "value": "pregrado"
+        },
+        {
+          "value": "grado",
+          "label": "Grado"
+        },
+        {
+          "value": "posgrado",
+          "label": "Posgrado"
+        }
+      ],
+      "label": "Título a obtener",
+      "type": "select",
+      "id": "Field_1hbo1az",
+      "key": "tituloObtenerEstudio",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Licencitatura",
+      "type": "textfield",
+      "id": "Field_12wvhhu",
+      "key": "licenciaturaEstudio",
+      "description": "Opcional"
+    },
+    {
+      "label": "Bachillerato",
+      "type": "textfield",
+      "id": "Field_0r03fr8",
+      "key": "bachilleratoEstudio",
+      "description": "Opcional"
+    },
+    {
+      "label": "Diplomado",
+      "type": "textfield",
+      "id": "Field_1hemt9q",
+      "key": "diplomadoEstudio",
+      "description": "Opcional"
+    },
+    {
+      "text": "# Conceptos que desea financiar",
+      "type": "text",
+      "id": "Field_1ogdrre"
+    },
+    {
+      "label": "Colegiatura",
+      "type": "checkbox",
+      "id": "Field_0vfhbat",
+      "key": "colegiaturaEstudio"
+    },
+    {
+      "label": "Equipo de Computo",
+      "type": "checkbox",
+      "id": "Field_0lrg6i2",
+      "key": "equipoComputoEstudio"
+    },
+    {
+      "label": "Gastos de Abogado",
+      "type": "checkbox",
+      "id": "Field_07emekc",
+      "key": "gastosAbogadoEstudio"
+    },
+    {
+      "label": "Gastos de Avaluo",
+      "type": "checkbox",
+      "id": "Field_0ezmc24",
+      "key": "gastosAvaluoEstudio"
+    },
+    {
+      "label": "Gastos de Sostenimiento",
+      "type": "checkbox",
+      "id": "Field_16fi5ys",
+      "key": "gastosSostenimientoEstudio"
+    },
+    {
+      "label": "Gastos para Trabajo Final y Derecho Graduacion Bachillerato",
+      "type": "checkbox",
+      "id": "Field_0uj5kx1",
+      "key": "graduacionBachiEstudio"
+    },
+    {
+      "label": "Gastos para Trabajo Final y Derecho Graduacion Doctorado",
+      "type": "checkbox",
+      "id": "Field_0u0p1gq",
+      "key": "derechoDoctoradoEstudio"
+    },
+    {
+      "label": "Gastos para Trabajo Final y Derecho Graduacion Especialización",
+      "type": "checkbox",
+      "id": "Field_1cmwdln",
+      "key": "derechoEspecialidadEstudio"
+    },
+    {
+      "label": "Gastos para Trabajo Final y Derecho Graduacion Licenciatura",
+      "type": "checkbox",
+      "id": "Field_154iguk",
+      "key": "derechoLicenciaturaEstudio"
+    },
+    {
+      "label": "Gastos para Trabajo Final y Derecho Graduacion Maestria",
+      "type": "checkbox",
+      "id": "Field_14jb7k7",
+      "key": "derechoMaestriaEstudio"
+    },
+    {
+      "label": "Gastos para Trabajo Final y Derecho Graduacion Pregrado",
+      "type": "checkbox",
+      "id": "Field_05l3xu7",
+      "key": "derechoPregradoEstudio"
+    },
+    {
+      "label": "Matrícula",
+      "type": "checkbox",
+      "id": "Field_04ewm9k",
+      "key": "matriculaEstudio"
+    },
+    {
+      "action": "submit",
+      "label": "Guardar y continuar",
+      "type": "button",
+      "id": "Field_1prnnle",
+      "key": "field_0wm9k9f"
+    }
+  ],
+  "type": "default",
+  "id": "registroProyectoEstudio"
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Registrar Ciclo Lectivo",
+      "type": "text",
+      "id": "Field_0obzmuf"
+    },
+    {
+      "label": "País",
+      "type": "textfield",
+      "id": "Field_10w89i5",
+      "key": "paisEstudio",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Universidad",
+      "type": "textfield",
+      "id": "Field_1db8i90",
+      "key": "nombreUniversidadEstudio",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Carrera",
+      "type": "textfield",
+      "id": "Field_15muxd3",
+      "key": "nombreCarreraEstudio",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Año de inicio",
+      "type": "textfield",
+      "id": "Field_0e300pt",
+      "key": "annioCiclo",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "value": "cuatrimestre",
+          "label": "Cuatrimestre "
+        },
+        {
+          "value": "semestre",
+          "label": "Semestre semestre"
+        }
+      ],
+      "label": "Modalidad",
+      "type": "select",
+      "id": "Field_0k3miim",
+      "key": "modalidadCiclo",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Período",
+      "type": "textfield",
+      "id": "Field_0gpd1qc",
+      "key": "periodoCiclo",
+      "validate": {
+        "required": true
+      },
+      "description": "ej: enero-abril"
+    },
+    {
+      "label": "Título a obtener",
+      "type": "textfield",
+      "id": "Field_0t5c8dh",
+      "key": "tituloObtenerEstudio",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Total de materias del programa",
+      "type": "textfield",
+      "id": "Field_0ymqwp3",
+      "key": "totalMateriasCiclo",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Materias aprobadas",
+      "type": "textfield",
+      "id": "Field_111ed7v",
+      "key": "materiasAprobadasCiclo",
+      "description": "Opcional"
+    },
+    {
+      "label": "Materias convalidadas",
+      "type": "textfield",
+      "id": "Field_0246u5s",
+      "key": "materiasConvalidadasCiclo",
+      "description": "Opcional"
+    },
+    {
+      "label": "Total materias por cursar",
+      "type": "textfield",
+      "id": "Field_1bsul6w",
+      "key": "materiasCursarCiclo",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Materias que desea financiar",
+      "type": "textfield",
+      "id": "Field_08fw4qv",
+      "key": "materiasFinanciadasCiclo",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Guardar y continuar",
+      "type": "button",
+      "id": "Field_1feto1q",
+      "key": "field_1vhq29y"
+    }
+  ],
+  "type": "default",
+  "id": "Form_19rjp3w"
+}

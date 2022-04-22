@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Registro cronograma de materias",
+      "type": "text",
+      "id": "Field_1fzgm1j"
+    },
+    {
+      "label": "Grado",
+      "type": "textfield",
+      "id": "Field_1tsy26z",
+      "key": "tituloObtenerEstudio",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Materias a financiar",
+      "type": "textfield",
+      "id": "Field_1x5lb39",
+      "key": "materiasFinanciadasCiclo",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Monto para materias",
+      "type": "textfield",
+      "id": "Field_0mixx95",
+      "key": "montoMateriasCronograma",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Monto para matrícula",
+      "type": "textfield",
+      "id": "Field_1t0ehti",
+      "key": "montoMatriculaCronograma",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Monto para sostenimiento",
+      "type": "textfield",
+      "id": "Field_0ha94mk",
+      "key": "montoSostenimientoCronograma",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Monto a solicitar",
+      "type": "textfield",
+      "id": "Field_023n3ev",
+      "key": "montoSolicitudCronograma",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Cantidad de materias",
+      "type": "textfield",
+      "id": "Field_1o20ock",
+      "key": "materiasCronograma",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Guardar y continuar",
+      "type": "button",
+      "id": "Field_1fknhz8",
+      "key": "field_1ajrunq"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0he5ubd"
+}

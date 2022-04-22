@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Solicitar cuenta del BCR",
+      "type": "text",
+      "id": "Field_1331tqy"
+    },
+    {
+      "label": "Ingrese la cuenta del BCR",
+      "type": "textfield",
+      "id": "Field_16hrj0f",
+      "key": "cuentaBcrEstudiante",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Continuar",
+      "type": "button",
+      "id": "Field_1lsr2vn",
+      "key": "field_11nb6a3"
+    }
+  ],
+  "type": "default",
+  "id": "solicitarCuenta"
+}
