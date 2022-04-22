@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Registrar otra materia",
+      "type": "text",
+      "id": "Field_0yfckr6"
+    },
+    {
+      "values": [
+        {
+          "value": "true",
+          "label": "Sí"
+        },
+        {
+          "value": "false",
+          "label": "No "
+        }
+      ],
+      "label": "¿Desea registrar otra materia?",
+      "type": "radio",
+      "id": "Field_11lsbbg",
+      "key": "validarRegistroMateria",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Continuar",
+      "type": "button",
+      "id": "Field_13k621z",
+      "key": "field_12ugxst"
+    }
+  ],
+  "type": "default",
+  "id": "Form_19jxz5i"
+}

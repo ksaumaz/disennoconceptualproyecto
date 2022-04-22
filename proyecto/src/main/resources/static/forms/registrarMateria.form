@@ -51,26 +51,7 @@
       "label": "Monto a solicitar",
       "type": "textfield",
       "id": "Field_0ge8nxz",
-      "key": "montoSolicitudMateraia",
-      "validate": {
-        "required": true
-      }
-    },
-    {
-      "values": [
-        {
-          "value": "true",
-          "label": "Si "
-        },
-        {
-          "value": "false",
-          "label": "No "
-        }
-      ],
-      "label": "¿Desea registrar otra materia?",
-      "type": "radio",
-      "id": "Field_0qd7o1o",
-      "key": "validarRegistroMateria",
+      "key": "montoSolicitudMateria",
       "validate": {
         "required": true
       }

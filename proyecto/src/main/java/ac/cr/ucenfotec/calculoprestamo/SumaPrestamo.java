@@ -11,7 +11,15 @@ public class SumaPrestamo implements JavaDelegate {
     @Override
     public void execute(DelegateExecution execution) throws Exception {
         int montoFinanciamientoMatricula = (int) execution.getVariable("montoFinanciamientoMatricula");
-        String montoOtrosFinanciamientos = (String) execution.getVariable("montoOtrosFinanciamientos");
+        String montoOtrosFinanciamientos;
+
+        String validarMontos = (String) execution.getVariable("validarOtrosMontos");
+
+        if (validarMontos.equals("false")) {
+            montoOtrosFinanciamientos = "0";
+        } else {
+            montoOtrosFinanciamientos = (String) execution.getVariable("montoOtrosFinanciamientos");
+        }
         int montoFinanciamientoTotal = montoFinanciamientoMatricula + Integer.parseInt(montoOtrosFinanciamientos);
         execution.setVariable("montoFinanciamientoTotal", montoFinanciamientoTotal);
         System.out.println("Cálculo total: " + montoFinanciamientoTotal);

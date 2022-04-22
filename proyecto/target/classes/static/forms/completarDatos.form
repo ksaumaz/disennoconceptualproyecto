@@ -123,7 +123,7 @@
       "label": "Teléfono",
       "type": "textfield",
       "id": "Field_1ngrlgx",
-      "key": "field_0dj6qlq"
+      "key": "telefonoEstudiante"
     },
     {
       "label": "Dirección exacta",
