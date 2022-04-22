@@ -10,7 +10,7 @@
       "label": "Monto total de las materias",
       "type": "textfield",
       "id": "Field_0vodnio",
-      "key": "montoFinanciamientoMatricual"
+      "key": "montoFinanciamientoMatricula"
     },
     {
       "label": "Monto de otros financiamientos",

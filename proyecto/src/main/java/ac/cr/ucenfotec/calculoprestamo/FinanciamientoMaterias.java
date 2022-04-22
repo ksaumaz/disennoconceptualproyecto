@@ -13,7 +13,7 @@ public class FinanciamientoMaterias implements JavaDelegate {
         String montoMatriculaCronograma = (String) execution.getVariable("montoMatriculaCronograma");
         String montoSostenimientoCronograma = (String) execution.getVariable("montoSostenimientoCronograma");
         int montoFinanciamientoMatricula = Integer.parseInt(montoMateriasCronograma) + Integer.parseInt(montoMatriculaCronograma) + Integer.parseInt(montoSostenimientoCronograma);
-        execution.setVariable("montoFinanciamientoMatricual", montoFinanciamientoMatricula);
-        System.out.println("Cálculo de cuota fiduciaria total: " + montoFinanciamientoMatricula);
+        execution.setVariable("montoFinanciamientoMatricula", montoFinanciamientoMatricula);
+        System.out.println("Cálculo de matrícula: " + montoFinanciamientoMatricula);
     }
 }
