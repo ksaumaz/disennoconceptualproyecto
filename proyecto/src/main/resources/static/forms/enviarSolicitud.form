@@ -7,6 +7,12 @@
       "id": "Field_1yg7xbo"
     },
     {
+      "label": "Nombre",
+      "type": "textfield",
+      "id": "Field_0iahp2q",
+      "key": "nombreEstudiante"
+    },
+    {
       "values": [
         {
           "label": "Si",
@@ -20,10 +26,11 @@
       "label": "Esta seguro de enviar la solictud",
       "type": "radio",
       "id": "Field_1031tw5",
-      "key": "field_1tm84i4",
+      "key": "EnviaSolicitud",
       "validate": {
         "required": true
-      }
+      },
+      "description": "Este proceso envía la solitud formalmente con toda la información anteriormente suministrada."
     },
     {
       "action": "submit",
@@ -34,5 +41,5 @@
     }
   ],
   "type": "default",
-  "id": "Form_0s059yg"
+  "id": "Form_EnviarSolicitud"
 }
