@@ -14,10 +14,10 @@
         },
         {
           "label": "No",
-          "value": "False"
+          "value": "false"
         }
       ],
-      "label": "Es usted mayor de Edad?",
+      "label": "Es usted mayor de edad ?",
       "type": "radio",
       "id": "Field_1dvfgt0",
       "key": "EdadValidar",
