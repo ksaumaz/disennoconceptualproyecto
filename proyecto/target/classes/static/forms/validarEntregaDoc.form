@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Documentos",
+      "type": "text",
+      "id": "Field_1juv1mj"
+    },
+    {
+      "values": [
+        {
+          "label": "Si",
+          "value": "SI"
+        },
+        {
+          "label": "No",
+          "value": "NO"
+        }
+      ],
+      "label": "Se adjuntaron todos los documentos?",
+      "type": "radio",
+      "id": "Field_1i5x3q9",
+      "key": "DocumentoAdjuntados",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Continuar",
+      "type": "button",
+      "id": "Field_002ty6d",
+      "key": "field_10bmwrj"
+    }
+  ],
+  "type": "default",
+  "id": "Form_08c7nof"
+}

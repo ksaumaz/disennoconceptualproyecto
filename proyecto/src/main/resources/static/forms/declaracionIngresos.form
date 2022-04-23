@@ -10,25 +10,37 @@
       "label": "Fecha",
       "type": "textfield",
       "id": "Field_0leh44e",
-      "key": "FechaDI"
+      "key": "fechaDI",
+      "validate": {
+        "required": true
+      }
     },
     {
       "label": "Nombre",
       "type": "textfield",
       "id": "Field_0mwsf9u",
-      "key": "field_19shnxd"
+      "key": "nombreEstudiante",
+      "validate": {
+        "required": true
+      }
     },
     {
       "label": "Primer Apellido",
       "type": "textfield",
       "id": "Field_01ubho6",
-      "key": "field_1ib9ihw"
+      "key": "apellido1Estudiante",
+      "validate": {
+        "required": true
+      }
     },
     {
       "label": "Segundo Apellido",
       "type": "textfield",
       "id": "Field_1fnaxa2",
-      "key": "field_0pfm38x"
+      "key": "apellido2Estudiante",
+      "validate": {
+        "required": true
+      }
     },
     {
       "values": [
@@ -43,35 +55,59 @@
         {
           "label": "Soltero",
           "value": "soltero"
+        },
+        {
+          "label": "Clérigo",
+          "value": "clerigo"
+        },
+        {
+          "label": "unión libre",
+          "value": "unionLibre"
+        },
+        {
+          "label": "Viudo",
+          "value": "viudo"
         }
       ],
       "label": "Estado Civil",
       "type": "select",
       "id": "Field_0mjq59w",
-      "key": "EstadoCivilDI"
+      "key": "estadoCivilEstudiante",
+      "validate": {
+        "required": true
+      }
     },
     {
       "label": "Ocupación",
       "type": "textfield",
       "id": "Field_0n1ppjt",
-      "key": "OcupacionDI"
+      "key": "OcupacionDI",
+      "validate": {
+        "required": true
+      }
     },
     {
       "label": "Fecha Contratación",
       "type": "textfield",
       "id": "Field_0u1pyqd",
       "key": "FechaContratacionDI",
-      "description": "Fecha de inicio de la relación laboral"
+      "description": "Fecha de inicio de la relación laboral",
+      "validate": {
+        "required": true
+      }
     },
     {
       "label": "Ingresos Mensuales",
       "type": "textfield",
       "id": "Field_1a7racu",
       "key": "IngresosMensualesDI",
-      "description": "Ingresos brutos en colones"
+      "description": "Ingresos brutos en colones",
+      "validate": {
+        "required": true
+      }
     },
     {
-      "text": "<h3> Firma </h3>",
+      "text": "<h3> Firma  _______________</h3>",
       "type": "text",
       "id": "Field_1kjzki7"
     },

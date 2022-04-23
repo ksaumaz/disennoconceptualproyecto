@@ -308,19 +308,23 @@
       <bpmn:incoming>Flow_1ojcb2w</bpmn:incoming>
       <bpmn:outgoing>Flow_06lzha2</bpmn:outgoing>
     </bpmn:userTask>
-    <bpmn:serviceTask id="Activity_0x2d3te" name="Validar mayoria de edad">
+    <bpmn:sequenceFlow id="Flow_1ojcb2w" sourceRef="Activity_16tu12x" targetRef="Activity_0hs9p1i" />
+    <bpmn:userTask id="Activity_0x2d3te" name="Validar mayoria de edad" camunda:formKey="camunda-forms:/forms/validarEdad.form">
       <bpmn:incoming>Flow_17nw97n</bpmn:incoming>
       <bpmn:outgoing>Flow_16lsn9i</bpmn:outgoing>
-    </bpmn:serviceTask>
-    <bpmn:sequenceFlow id="Flow_1ojcb2w" sourceRef="Activity_16tu12x" targetRef="Activity_0hs9p1i" />
-    <bpmn:serviceTask id="Activity_0mnfpz7" name="Validar ingresos propios">
+    </bpmn:userTask>
+    <bpmn:userTask id="Activity_0mnfpz7" name="Validar ingresos propios" camunda:formKey="camunda-forms:/forms/ValidaIngresosPropios.form">
       <bpmn:incoming>Flow_076qdde</bpmn:incoming>
       <bpmn:incoming>Flow_0tt2map</bpmn:incoming>
       <bpmn:outgoing>Flow_17z519i</bpmn:outgoing>
-    </bpmn:serviceTask>
+    </bpmn:userTask>
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="ConapeProcess">
+      <bpmndi:BPMNEdge id="Flow_1ojcb2w_di" bpmnElement="Flow_1ojcb2w">
+        <di:waypoint x="6030" y="860" />
+        <di:waypoint x="6180" y="860" />
+      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_1n06jrl_di" bpmnElement="Flow_1n06jrl">
         <di:waypoint x="3370" y="910" />
         <di:waypoint x="3370" y="960" />
@@ -629,10 +633,6 @@
         <di:waypoint x="188" y="327" />
         <di:waypoint x="240" y="327" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_1ojcb2w_di" bpmnElement="Flow_1ojcb2w">
-        <di:waypoint x="6030" y="860" />
-        <di:waypoint x="6180" y="860" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
         <dc:Bounds x="152" y="309" width="36" height="36" />
       </bpmndi:BPMNShape>
@@ -653,6 +653,9 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Gateway_1ugs5dd_di" bpmnElement="Gateway_1ugs5dd" isMarkerVisible="true">
         <dc:Bounds x="5615" y="875" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_037enc2_di" bpmnElement="Event_037enc2">
+        <dc:Bounds x="6372" y="842" width="36" height="36" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_19c0zh3_di" bpmnElement="Activity_0sfyl4k">
         <dc:Bounds x="240" y="287" width="100" height="80" />
@@ -774,13 +777,10 @@
       <bpmndi:BPMNShape id="Activity_10e1q1v_di" bpmnElement="Activity_0hs9p1i">
         <dc:Bounds x="6180" y="820" width="100" height="80" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Event_037enc2_di" bpmnElement="Event_037enc2">
-        <dc:Bounds x="6372" y="842" width="36" height="36" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_199ul7g_di" bpmnElement="Activity_0x2d3te">
+      <bpmndi:BPMNShape id="Activity_0ax5et2_di" bpmnElement="Activity_0x2d3te">
         <dc:Bounds x="4840" y="860" width="100" height="80" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0enb3jm_di" bpmnElement="Activity_0mnfpz7">
+      <bpmndi:BPMNShape id="Activity_1ucd4ky_di" bpmnElement="Activity_0mnfpz7">
         <dc:Bounds x="5420" y="860" width="100" height="80" />
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>

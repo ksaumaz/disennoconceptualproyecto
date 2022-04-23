@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Edad de solicitante ",
+      "type": "text",
+      "id": "Field_18ovqlj"
+    },
+    {
+      "values": [
+        {
+          "label": "Si",
+          "value": "true"
+        },
+        {
+          "label": "No",
+          "value": "False"
+        }
+      ],
+      "label": "Es usted mayor de Edad?",
+      "type": "radio",
+      "id": "Field_1dvfgt0",
+      "key": "EdadValidar",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Continuar",
+      "type": "button",
+      "id": "Field_1soih3j",
+      "key": "field_1kktr5e"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0i1h3mf"
+}

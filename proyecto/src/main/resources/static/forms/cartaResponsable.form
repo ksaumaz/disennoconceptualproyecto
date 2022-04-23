@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "components": [
     {
-      "text": "# Carta del responsable(s) del menor de edad",
+      "text": "# Carta responsable(s) del menor de edad",
       "type": "text",
       "id": "Field_0aumxq6"
     },
@@ -10,101 +10,182 @@
       "label": "Nombre",
       "type": "textfield",
       "id": "Field_0yrvcxr",
-      "key": "nombreResponsable"
+      "key": "nombreResponsable",
+      "validate": {
+        "required": true
+      }
     },
     {
       "label": "Primer apellido",
       "type": "textfield",
       "id": "Field_15mu76p",
-      "key": "Apellido1Responsable"
+      "key": "Apellido1Responsable",
+      "validate": {
+        "required": true
+      }
     },
     {
       "label": "Segundo apellido",
       "type": "textfield",
       "id": "Field_1kusplq",
-      "key": "apellido2Responsable"
+      "key": "apellido2Responsable",
+      "validate": {
+        "required": true
+      }
     },
     {
       "label": "Fecha",
       "type": "textfield",
       "id": "Field_1y6ermd",
-      "key": "fechaResponsable"
+      "key": "fechaResponsable",
+      "validate": {
+        "required": true
+      }
     },
     {
       "label": "Ocupación",
       "type": "textfield",
       "id": "Field_13aziar",
-      "key": "ocupacionResponsable"
+      "key": "ocupacionResponsable",
+      "validate": {
+        "required": true
+      }
     },
     {
       "label": "Cédula",
       "type": "textfield",
       "id": "Field_0u10l4b",
-      "key": "cedulaResponsable"
+      "key": "cedulaResponsable",
+      "validate": {
+        "required": true
+      }
     },
     {
       "values": [
         {
           "label": "Masculino",
-          "value": "M"
+          "value": "masculino"
         },
         {
           "label": "Femenino",
-          "value": "F"
+          "value": "femenino"
         }
       ],
       "label": "Género",
       "type": "select",
       "id": "Field_091uv29",
-      "key": "GeneroResponsable"
+      "key": "GeneroResponsable",
+      "validate": {
+        "required": true
+      }
     },
     {
+      "values": [
+        {
+          "label": "Casado",
+          "value": "casado"
+        },
+        {
+          "label": "Clérigo",
+          "value": "clerigo"
+        },
+        {
+          "label": "Divorciado",
+          "value": "divorciado"
+        },
+        {
+          "label": "Soltero",
+          "value": "soltero"
+        },
+        {
+          "label": "unión libre",
+          "value": "union_libre"
+        },
+        {
+          "label": "Viudo",
+          "value": "viudo"
+        }
+      ],
       "label": "Estado civil",
-      "type": "textfield",
-      "id": "Field_0ww0xl3",
-      "key": "field_1xzu4w7"
+      "type": "select",
+      "id": "Field_0dg3rge",
+      "key": "EstadoCivil",
+      "validate": {
+        "required": true
+      }
     },
     {
       "label": "Provincia",
       "type": "textfield",
       "id": "Field_1ddj7sn",
-      "key": "provinciaRESPONSABLE"
+      "key": "provinciaRESPONSABLE",
+      "validate": {
+        "required": true
+      }
     },
     {
       "label": "Cantón",
       "type": "textfield",
       "id": "Field_0trfu2q",
-      "key": "cantonResponsable"
+      "key": "cantonResponsable",
+      "validate": {
+        "required": true
+      }
     },
     {
       "label": "Distrito",
       "type": "textfield",
       "id": "Field_0o47tem",
-      "key": "distritoResponsable"
+      "key": "distritoResponsable",
+      "validate": {
+        "required": true
+      }
     },
     {
       "label": "Dirección exacta",
       "type": "textfield",
       "id": "Field_0kn42f4",
-      "key": "direccionResponsable"
+      "key": "direccionResponsable",
+      "description": "Opcional"
     },
     {
       "label": "Nombre Estudiante",
       "type": "textfield",
       "id": "Field_0rf321u",
-      "key": "nombreEstudiante"
+      "key": "nombreEstudiante",
+      "validate": {
+        "required": true
+      }
     },
     {
       "label": "Primer Apellido Estudiante",
       "type": "textfield",
       "id": "Field_01tlznj",
-      "key": "apellido1Estudiante"
+      "key": "apellido1Estudiante",
+      "validate": {
+        "required": true
+      }
     },
     {
       "label": "Segundo Apellido Estudiante",
       "type": "textfield",
       "id": "Field_1i2r664",
-      "key": "apellido2Estudiante"
+      "key": "apellido2Estudiante",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "text": "<h3> Firma:__________ </h3>",
+      "type": "text",
+      "id": "Field_17l33fq"
+    },
+    {
+      "action": "submit",
+      "label": "Guardar y Continuar",
+      "type": "button",
+      "id": "Field_0ii7di7",
+      "key": "field_1n31y9x"
     }
   ],
   "type": "default",
