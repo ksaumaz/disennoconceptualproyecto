@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Tipo de Ingresos",
+      "type": "text",
+      "id": "Field_0fl5q4k"
+    },
+    {
+      "values": [
+        {
+          "label": "Si",
+          "value": "true"
+        },
+        {
+          "value": "false",
+          "label": "No"
+        }
+      ],
+      "label": "¿Recibe usted ingresos por concepto de “Ingresos Propios”?",
+      "type": "radio",
+      "id": "Field_10219ra",
+      "key": "IngresosPropios",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Continuar",
+      "type": "button",
+      "id": "Field_08c2yzg",
+      "key": "field_0cpe4ge"
+    }
+  ],
+  "type": "default",
+  "id": "Form_ValidaIngresosPropios"
+}

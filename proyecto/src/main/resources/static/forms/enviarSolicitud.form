@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Enviar Solicitud",
+      "type": "text",
+      "id": "Field_1yg7xbo"
+    },
+    {
+      "values": [
+        {
+          "label": "Si",
+          "value": "SI"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "label": "Esta seguro de enviar la solictud",
+      "type": "radio",
+      "id": "Field_1031tw5",
+      "key": "field_1tm84i4",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Enviar",
+      "type": "button",
+      "id": "Field_1cn7bp7",
+      "key": "field_0dhqsvd"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0s059yg"
+}
