@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Declaración de ingresos",
+      "type": "text",
+      "id": "Field_1extvo7"
+    },
+    {
+      "label": "Fecha",
+      "type": "textfield",
+      "id": "Field_0leh44e",
+      "key": "FechaDI"
+    },
+    {
+      "label": "Nombre",
+      "type": "textfield",
+      "id": "Field_0mwsf9u",
+      "key": "field_19shnxd"
+    },
+    {
+      "label": "Primer Apellido",
+      "type": "textfield",
+      "id": "Field_01ubho6",
+      "key": "field_1ib9ihw"
+    },
+    {
+      "label": "Segundo Apellido",
+      "type": "textfield",
+      "id": "Field_1fnaxa2",
+      "key": "field_0pfm38x"
+    },
+    {
+      "values": [
+        {
+          "label": "Casado",
+          "value": "casado"
+        },
+        {
+          "label": "Divorciado",
+          "value": "divorciado"
+        },
+        {
+          "label": "Soltero",
+          "value": "soltero"
+        }
+      ],
+      "label": "Estado Civil",
+      "type": "select",
+      "id": "Field_0mjq59w",
+      "key": "EstadoCivilDI"
+    },
+    {
+      "label": "Ocupación",
+      "type": "textfield",
+      "id": "Field_0n1ppjt",
+      "key": "OcupacionDI"
+    },
+    {
+      "label": "Fecha Contratación",
+      "type": "textfield",
+      "id": "Field_0u1pyqd",
+      "key": "FechaContratacionDI",
+      "description": "Fecha de inicio de la relación laboral"
+    },
+    {
+      "label": "Ingresos Mensuales",
+      "type": "textfield",
+      "id": "Field_1a7racu",
+      "key": "IngresosMensualesDI",
+      "description": "Ingresos brutos en colones"
+    },
+    {
+      "text": "<h3> Firma </h3>",
+      "type": "text",
+      "id": "Field_1kjzki7"
+    },
+    {
+      "action": "submit",
+      "label": "Presentar",
+      "type": "button",
+      "id": "Field_1e3vc4t",
+      "key": "field_1t9891n"
+    }
+  ],
+  "type": "default",
+  "id": "Form_181d95c"
+}

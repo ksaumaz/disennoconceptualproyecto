@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Carta del responsable(s) del menor de edad",
+      "type": "text",
+      "id": "Field_0aumxq6"
+    },
+    {
+      "label": "Nombre",
+      "type": "textfield",
+      "id": "Field_0yrvcxr",
+      "key": "nombreResponsable"
+    },
+    {
+      "label": "Primer apellido",
+      "type": "textfield",
+      "id": "Field_15mu76p",
+      "key": "Apellido1Responsable"
+    },
+    {
+      "label": "Segundo apellido",
+      "type": "textfield",
+      "id": "Field_1kusplq",
+      "key": "apellido2Responsable"
+    },
+    {
+      "label": "Fecha",
+      "type": "textfield",
+      "id": "Field_1y6ermd",
+      "key": "fechaResponsable"
+    },
+    {
+      "label": "Ocupación",
+      "type": "textfield",
+      "id": "Field_13aziar",
+      "key": "ocupacionResponsable"
+    },
+    {
+      "label": "Cédula",
+      "type": "textfield",
+      "id": "Field_0u10l4b",
+      "key": "cedulaResponsable"
+    },
+    {
+      "values": [
+        {
+          "label": "Masculino",
+          "value": "M"
+        },
+        {
+          "label": "Femenino",
+          "value": "F"
+        }
+      ],
+      "label": "Género",
+      "type": "select",
+      "id": "Field_091uv29",
+      "key": "GeneroResponsable"
+    },
+    {
+      "label": "Estado civil",
+      "type": "textfield",
+      "id": "Field_0ww0xl3",
+      "key": "field_1xzu4w7"
+    },
+    {
+      "label": "Provincia",
+      "type": "textfield",
+      "id": "Field_1ddj7sn",
+      "key": "provinciaRESPONSABLE"
+    },
+    {
+      "label": "Cantón",
+      "type": "textfield",
+      "id": "Field_0trfu2q",
+      "key": "cantonResponsable"
+    },
+    {
+      "label": "Distrito",
+      "type": "textfield",
+      "id": "Field_0o47tem",
+      "key": "distritoResponsable"
+    },
+    {
+      "label": "Dirección exacta",
+      "type": "textfield",
+      "id": "Field_0kn42f4",
+      "key": "direccionResponsable"
+    },
+    {
+      "label": "Nombre Estudiante",
+      "type": "textfield",
+      "id": "Field_0rf321u",
+      "key": "nombreEstudiante"
+    },
+    {
+      "label": "Primer Apellido Estudiante",
+      "type": "textfield",
+      "id": "Field_01tlznj",
+      "key": "apellido1Estudiante"
+    },
+    {
+      "label": "Segundo Apellido Estudiante",
+      "type": "textfield",
+      "id": "Field_1i2r664",
+      "key": "apellido2Estudiante"
+    }
+  ],
+  "type": "default",
+  "id": "Form_19cu7ax"
+}

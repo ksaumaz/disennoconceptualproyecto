@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Si",
+          "value": "SI"
+        },
+        {
+          "label": "No",
+          "value": "NO"
+        }
+      ],
+      "label": "Es usted mayor de edad?",
+      "type": "radio",
+      "id": "Field_09zwrmz",
+      "key": "field_17fbji7"
+    },
+    {
+      "action": "submit",
+      "label": "Continuar",
+      "type": "button",
+      "id": "Field_1exdzv5",
+      "key": "field_1jemrrr"
+    }
+  ],
+  "type": "default",
+  "id": "Form_Validad_Edad"
+}
